@@ -1,0 +1,836 @@
+{
+  "assets": [
+    {
+      "id": "AAPL",
+      "name": "Apple Inc.",
+      "symbol": "AAPL",
+      "price": 240.76,
+      "history": [
+        239.4,
+        241.84,
+        235.74,
+        250.14,
+        237.07
+      ]
+    },
+    {
+      "id": "NVDA",
+      "name": "NVIDIA Corp.",
+      "symbol": "NVDA",
+      "price": 110.71,
+      "history": [
+        113.45,
+        107.61,
+        111.13,
+        110.57,
+        109.5
+      ]
+    },
+    {
+      "id": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "symbol": "GOOG",
+      "price": 175.27,
+      "history": [
+        174.17,
+        172.73,
+        168.5,
+        170.46,
+        166.57
+      ]
+    },
+    {
+      "id": "MSFT",
+      "name": "Microsoft Corp.",
+      "symbol": "MSFT",
+      "price": 390,
+      "history": [
+        396.89,
+        398.5,
+        395,
+        397.5,
+        396
+      ]
+    },
+    {
+      "id": "META",
+      "name": "Meta Platforms Inc.",
+      "symbol": "META",
+      "price": 616.49,
+      "history": [
+        634.4,
+        644.9,
+        637.4,
+        644.9,
+        637.7
+      ]
+    },
+    {
+      "id": "COIN",
+      "name": "Coinbase Global Inc.",
+      "symbol": "COIN",
+      "price": 216.13,
+      "history": [
+        210,
+        215.5,
+        220,
+        225,
+        218
+      ]
+    },
+    {
+      "id": "AMZN",
+      "name": "Amazon.com Inc.",
+      "symbol": "AMZN",
+      "price": 197.04,
+      "history": [
+        212.28,
+        205.02,
+        203.8,
+        208.36,
+        200.7
+      ]
+    },
+    {
+      "id": "TSLA",
+      "name": "Tesla Inc.",
+      "symbol": "TSLA",
+      "price": 260.95,
+      "history": [
+        266.12,
+        259.39,
+        250.81,
+        255,
+        260
+      ]
+    },
+    {
+      "id": "NFLX",
+      "name": "Netflix Inc.",
+      "symbol": "NFLX",
+      "price": 880.59,
+      "history": [
+        883.85,
+        890.6,
+        445.73,
+        627.03,
+        643.29
+      ]
+    },
+    {
+      "id": "PYPL",
+      "name": "PayPal Holdings Inc.",
+      "symbol": "PYPL",
+      "price": 69.14,
+      "history": [
+        67.85,
+        69.38,
+        67.75,
+        68.5,
+        69
+      ]
+    },
+    {
+      "id": "VZ",
+      "name": "Verizon Communications Inc.",
+      "symbol": "VZ",
+      "price": 39.87,
+      "history": [
+        40.12,
+        39.5,
+        39.85,
+        40,
+        39.7
+      ]
+    },
+    {
+      "id": "PFE",
+      "name": "Pfizer Inc.",
+      "symbol": "PFE",
+      "price": 45.78,
+      "history": [
+        46.1,
+        45,
+        44.5,
+        45.4,
+        45.2
+      ]
+    },
+    {
+      "id": "INTC",
+      "name": "Intel Corp.",
+      "symbol": "INTC",
+      "price": 31.75,
+      "history": [
+        30.5,
+        31,
+        31.3,
+        32,
+        31.8
+      ]
+    },
+    {
+      "id": "WMT",
+      "name": "Walmart Inc.",
+      "symbol": "WMT",
+      "price": 160.25,
+      "history": [
+        161.5,
+        159.8,
+        160,
+        161.2,
+        160.1
+      ]
+    },
+    {
+      "id": "V",
+      "name": "Visa Inc.",
+      "symbol": "V",
+      "price": 347.9,
+      "history": [
+        345,
+        346.2,
+        344.5,
+        348.1,
+        347.8
+      ]
+    },
+    {
+      "id": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "symbol": "JPM",
+      "price": 242.63,
+      "history": [
+        240.5,
+        241,
+        239.8,
+        243.2,
+        242.5
+      ]
+    },
+    {
+      "id": "UNH",
+      "name": "UnitedHealth Group Inc.",
+      "symbol": "UNH",
+      "price": 470.75,
+      "history": [
+        475.1,
+        478.3,
+        467.7,
+        473.8,
+        469
+      ]
+    },
+    {
+      "id": "HD",
+      "name": "Home Depot Inc.",
+      "symbol": "HD",
+      "price": 335.58,
+      "history": [
+        338.5,
+        333.6,
+        336.3,
+        340.2,
+        334.5
+      ]
+    },
+    {
+      "id": "DIS",
+      "name": "The Walt Disney Company",
+      "symbol": "DIS",
+      "price": 192.4,
+      "history": [
+        189.5,
+        193,
+        194,
+        196,
+        192.1
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "AAPL",
+      "trades": [
+        {
+          "id": 1741370617196,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:03:37.196Z"
+        },
+        {
+          "id": 1741370622657,
+          "type": "BUY",
+          "quantity": 12,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:03:42.657Z"
+        },
+        {
+          "id": 1741370799165,
+          "type": "BUY",
+          "quantity": 123,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:06:39.165Z"
+        },
+        {
+          "id": 1741370804718,
+          "type": "BUY",
+          "quantity": 312,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:06:44.718Z"
+        },
+        {
+          "id": 1741370817782,
+          "type": "SELL",
+          "quantity": 3120,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:06:57.782Z"
+        },
+        {
+          "id": 1741370827562,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:07:07.562Z"
+        },
+        {
+          "id": 1741370869730,
+          "type": "SELL",
+          "quantity": 3000,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:07:49.730Z"
+        },
+        {
+          "id": 1741370919817,
+          "type": "BUY",
+          "quantity": 6000,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:08:39.817Z"
+        },
+        {
+          "id": 1741370929168,
+          "type": "SELL",
+          "quantity": 327,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:08:49.168Z"
+        },
+        {
+          "id": 1741371025847,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:10:25.847Z"
+        },
+        {
+          "id": 1741377696749,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 240.76,
+          "timestamp": "2025-03-07T20:01:36.749Z"
+        },
+        {
+          "id": 1741434238703,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 240.13001095256044,
+          "timestamp": "2025-03-08T11:43:58.703Z"
+        },
+        {
+          "id": 1741442340752,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:00.752Z"
+        },
+        {
+          "id": 1741442351677,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:11.677Z"
+        },
+        {
+          "id": 1741442351702,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:11.702Z"
+        },
+        {
+          "id": 1741442351712,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:11.712Z"
+        },
+        {
+          "id": 1741442351724,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:11.724Z"
+        },
+        {
+          "id": 1741442351734,
+          "type": "SELL",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:11.734Z"
+        },
+        {
+          "id": 1741442395590,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:55.590Z"
+        },
+        {
+          "id": 1741442395607,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:55.607Z"
+        },
+        {
+          "id": 1741442395615,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:55.615Z"
+        },
+        {
+          "id": 1741442395626,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:55.626Z"
+        },
+        {
+          "id": 1741442395632,
+          "type": "SELL",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:55.632Z"
+        },
+        {
+          "id": 1741442399046,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:59.046Z"
+        },
+        {
+          "id": 1741442399071,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:59.071Z"
+        },
+        {
+          "id": 1741442399081,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T13:59:59.081Z"
+        },
+        {
+          "id": 1741442400042,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:00.042Z"
+        },
+        {
+          "id": 1741442400068,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:00.068Z"
+        },
+        {
+          "id": 1741442400076,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:00.076Z"
+        },
+        {
+          "id": 1741442400087,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:00.087Z"
+        },
+        {
+          "id": 1741442400095,
+          "type": "SELL",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:00.095Z"
+        },
+        {
+          "id": 1741442408088,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:08.088Z"
+        },
+        {
+          "id": 1741442408114,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:08.114Z"
+        },
+        {
+          "id": 1741442408125,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:08.125Z"
+        },
+        {
+          "id": 1741442408138,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:08.138Z"
+        },
+        {
+          "id": 1741442408149,
+          "type": "SELL",
+          "quantity": 2,
+          "strikePrice": 180,
+          "timestamp": "2025-03-08T14:00:08.149Z"
+        },
+        {
+          "id": 1741444056835,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 238.94286123711933,
+          "timestamp": "2025-03-08T14:27:36.835Z"
+        },
+        {
+          "id": 1741444104767,
+          "type": "BUY",
+          "quantity": 3,
+          "strikePrice": 239.97174277707987,
+          "timestamp": "2025-03-08T14:28:24.767Z"
+        },
+        {
+          "id": 1741444160248,
+          "type": "BUY",
+          "quantity": 3,
+          "strikePrice": 238.5592026332199,
+          "timestamp": "2025-03-08T14:29:20.248Z"
+        },
+        {
+          "id": 1741444193813,
+          "type": "BUY",
+          "quantity": 3,
+          "strikePrice": 238.70080114633316,
+          "timestamp": "2025-03-08T14:29:53.813Z"
+        },
+        {
+          "id": 1741444267293,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 240.08929027315114,
+          "timestamp": "2025-03-08T14:31:07.293Z"
+        },
+        {
+          "id": 1741444278993,
+          "type": "BUY",
+          "quantity": 9,
+          "strikePrice": 241.01869482161825,
+          "timestamp": "2025-03-08T14:31:18.993Z"
+        },
+        {
+          "id": 1741444355708,
+          "type": "BUY",
+          "quantity": 6,
+          "strikePrice": 241.2071069744407,
+          "timestamp": "2025-03-08T14:32:35.708Z"
+        },
+        {
+          "id": 1742297291077,
+          "type": "BUY",
+          "quantity": 10,
+          "strikePrice": 241.99668048289837,
+          "timestamp": "2025-03-18T11:28:11.077Z"
+        },
+        {
+          "id": 1742297307153,
+          "type": "SELL",
+          "quantity": 53,
+          "strikePrice": 238.0507750542169,
+          "timestamp": "2025-03-18T11:28:27.153Z"
+        }
+      ]
+    },
+    {
+      "id": "TSLA",
+      "trades": [
+        {
+          "id": 1741371392237,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:16:32.237Z"
+        },
+        {
+          "id": 1741371415575,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 156.78,
+          "timestamp": "2025-03-07T18:16:55.575Z"
+        },
+        {
+          "id": 1741449350644,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 259.25182417602986,
+          "timestamp": "2025-03-08T15:55:50.644Z"
+        }
+      ]
+    },
+    {
+      "id": "VZ",
+      "trades": [
+        {
+          "id": 1741375221259,
+          "type": "BUY",
+          "quantity": 12,
+          "strikePrice": 39.87,
+          "timestamp": "2025-03-07T19:20:21.259Z"
+        }
+      ]
+    },
+    {
+      "id": "META",
+      "trades": [
+        {
+          "id": 1741377373355,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 616.49,
+          "timestamp": "2025-03-07T19:56:13.355Z"
+        },
+        {
+          "id": 1741436103039,
+          "type": "SELL",
+          "quantity": 1,
+          "strikePrice": 615.9132297088178,
+          "timestamp": "2025-03-08T12:15:03.039Z"
+        }
+      ]
+    },
+    {
+      "id": "DIS",
+      "trades": [
+        {
+          "id": 1741444513602,
+          "type": "BUY",
+          "quantity": 10,
+          "strikePrice": 191.90351636772206,
+          "timestamp": "2025-03-08T14:35:13.602Z"
+        },
+        {
+          "id": 1741444662641,
+          "type": "SELL",
+          "quantity": 10,
+          "strikePrice": 190.10748370661966,
+          "timestamp": "2025-03-08T14:37:42.641Z"
+        },
+        {
+          "id": 1741444671664,
+          "type": "BUY",
+          "quantity": 10,
+          "strikePrice": 192.17145704218163,
+          "timestamp": "2025-03-08T14:37:51.664Z"
+        },
+        {
+          "id": 1741444753744,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 191.66077857025874,
+          "timestamp": "2025-03-08T14:39:13.744Z"
+        },
+        {
+          "id": 1741444867023,
+          "type": "BUY",
+          "quantity": 9,
+          "strikePrice": 193.23667023148784,
+          "timestamp": "2025-03-08T14:41:07.023Z"
+        },
+        {
+          "id": 1741444949711,
+          "type": "SELL",
+          "quantity": 12,
+          "strikePrice": 193.05531076951686,
+          "timestamp": "2025-03-08T14:42:29.711Z"
+        },
+        {
+          "id": 1741444954770,
+          "type": "BUY",
+          "quantity": 5,
+          "strikePrice": 189.5645260916064,
+          "timestamp": "2025-03-08T14:42:34.770Z"
+        },
+        {
+          "id": 1741444973392,
+          "type": "SELL",
+          "quantity": 14,
+          "strikePrice": 190.73943188214534,
+          "timestamp": "2025-03-08T14:42:53.392Z"
+        },
+        {
+          "id": 1741444983120,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 193.86397212857145,
+          "timestamp": "2025-03-08T14:43:03.120Z"
+        },
+        {
+          "id": 1741445048839,
+          "type": "SELL",
+          "quantity": 2,
+          "strikePrice": 191.67212464796387,
+          "timestamp": "2025-03-08T14:44:08.839Z"
+        },
+        {
+          "id": 1741445053935,
+          "type": "BUY",
+          "quantity": 8,
+          "strikePrice": 194.6347755547813,
+          "timestamp": "2025-03-08T14:44:13.935Z"
+        },
+        {
+          "id": 1741445054087,
+          "type": "SELL",
+          "quantity": 8,
+          "strikePrice": 194.6347755547813,
+          "timestamp": "2025-03-08T14:44:14.087Z"
+        },
+        {
+          "id": 1741445060918,
+          "type": "BUY",
+          "quantity": 3,
+          "strikePrice": 189.69576924020004,
+          "timestamp": "2025-03-08T14:44:20.918Z"
+        },
+        {
+          "id": 1741445061070,
+          "type": "SELL",
+          "quantity": 3,
+          "strikePrice": 189.69576924020004,
+          "timestamp": "2025-03-08T14:44:21.070Z"
+        },
+        {
+          "id": 1741445063351,
+          "type": "BUY",
+          "quantity": 5,
+          "strikePrice": 190.87668319888448,
+          "timestamp": "2025-03-08T14:44:23.351Z"
+        },
+        {
+          "id": 1741445117881,
+          "type": "BUY",
+          "quantity": 5,
+          "strikePrice": 190.134298022666,
+          "timestamp": "2025-03-08T14:45:17.881Z"
+        },
+        {
+          "id": 1741445127393,
+          "type": "SELL",
+          "quantity": 10,
+          "strikePrice": 192.9963819159735,
+          "timestamp": "2025-03-08T14:45:27.393Z"
+        },
+        {
+          "id": 1741445131898,
+          "type": "BUY",
+          "quantity": 3,
+          "strikePrice": 190.17870050515643,
+          "timestamp": "2025-03-08T14:45:31.898Z"
+        },
+        {
+          "id": 1741445135083,
+          "type": "SELL",
+          "quantity": 3,
+          "strikePrice": 190.17870050515643,
+          "timestamp": "2025-03-08T14:45:35.083Z"
+        },
+        {
+          "id": 1741445145547,
+          "type": "BUY",
+          "quantity": 4,
+          "strikePrice": 192.14798291294125,
+          "timestamp": "2025-03-08T14:45:45.547Z"
+        },
+        {
+          "id": 1741445148732,
+          "type": "SELL",
+          "quantity": 4,
+          "strikePrice": 192.14798291294125,
+          "timestamp": "2025-03-08T14:45:48.732Z"
+        },
+        {
+          "id": 1741445203827,
+          "type": "BUY",
+          "quantity": 8,
+          "strikePrice": 190.22762026714744,
+          "timestamp": "2025-03-08T14:46:43.827Z"
+        },
+        {
+          "id": 1741445269712,
+          "type": "SELL",
+          "quantity": 8,
+          "strikePrice": 191.35407719838935,
+          "timestamp": "2025-03-08T14:47:49.712Z"
+        },
+        {
+          "id": 1741445280524,
+          "type": "BUY",
+          "quantity": 2,
+          "strikePrice": 192.6534151293241,
+          "timestamp": "2025-03-08T14:48:00.524Z"
+        },
+        {
+          "id": 1741445283709,
+          "type": "SELL",
+          "quantity": 2,
+          "strikePrice": 192.6534151293241,
+          "timestamp": "2025-03-08T14:48:03.709Z"
+        },
+        {
+          "id": 1741449313120,
+          "type": "BUY",
+          "quantity": 10,
+          "strikePrice": 194.71995229513772,
+          "timestamp": "2025-03-08T15:55:13.120Z"
+        },
+        {
+          "id": 1741449316308,
+          "type": "SELL",
+          "quantity": 10,
+          "strikePrice": 194.71995229513772,
+          "timestamp": "2025-03-08T15:55:16.308Z"
+        }
+      ]
+    },
+    {
+      "id": "NVDA",
+      "trades": [
+        {
+          "id": 1741449360773,
+          "type": "BUY",
+          "quantity": 1,
+          "strikePrice": 110.13593046664901,
+          "timestamp": "2025-03-08T15:56:00.773Z"
+        }
+      ]
+    }
+  ]
+}
